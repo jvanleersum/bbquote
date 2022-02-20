@@ -5,7 +5,7 @@ def get_quote():
     response = requests.get(url).json()
     quote = response[0]["quote"]
     author = response[0]["author"]
-    return quote
+    return quote, author
 
 if __name__ == "__main__":
     print(get_quote())
