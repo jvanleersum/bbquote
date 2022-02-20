@@ -4,4 +4,4 @@ from bbquote.quote import get_quote
 
 quote, author = get_quote()  # assuming the function returns an author and a quote
 
-f"{quote}, said {author}"
+f"{quote}, by {author}"
